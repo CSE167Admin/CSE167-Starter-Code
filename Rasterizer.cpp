@@ -1,4 +1,5 @@
 #include <iostream>
+#include <stdio.h>
 #include <math.h>
 
 #include <GL/glew.h>
@@ -138,5 +139,5 @@ int main(int argc, char** argv) {
 	// Terminate GLFW
 	glfwTerminate();
 
-	exit(EXIT_SUCCESS);
+	return 0;
 }

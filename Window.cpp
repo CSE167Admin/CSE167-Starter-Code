@@ -1,10 +1,13 @@
 #include "Window.h"
+#include <stdio.h>
 
 const char* window_title = "GLFW Starter Project";
 Cube cube(5.0f);
 
 int Window::width;
 int Window::height;
+
+using namespace std;
 
 void Window::initialize_objects()
 {
